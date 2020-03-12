@@ -1,4 +1,7 @@
-.heade{
+@import "components/header-colors"
+
+.header{
   padding: 20px;
+  background: var(--header-background);
 }
 
