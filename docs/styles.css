@@ -1,0 +1,3 @@
+:root{--primary: rgb(177, 166, 166);--secondary: rgb(29, 29, 29)}*{box-sizing:border-box}body{font-family:sans-serif;color:var(--primary);background:var(--secondary);margin:20px}.m-20{margin:20px}.w-100{width:100%}.header{display:flex;justify-items:center;padding:20px;background-color:var(--secondary)}.header__h2{align-items:flex-start}
+
+/*# sourceMappingURL=styles.css.map */
