@@ -37,16 +37,16 @@
     padding: 5px;
     padding-top: 10px;
     text-align: center;
-    background: rgb(146, 149, 162);
+    background: rgba(29, 116, 154, 0.413);
     border-color: grey;
     border-style: solid;
     border-radius: 8px;
 
     &:hover {
-        background-color: papayawhip;
+        background-color: rgba(252, 188, 132, 0.447);
     }
     &:active {
-        background-color: papayawhip;
+        background-color:rgba(252, 188, 132, 0.447);
     }
 }
 
