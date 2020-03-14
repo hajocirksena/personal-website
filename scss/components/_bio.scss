@@ -1,0 +1,19 @@
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio__h2{
+    text-decoration: underline;
+}
+
+.bio__bio{
+    text-align: center;
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+.bio__vita {
+    margin-bottom: 3rem;
+}

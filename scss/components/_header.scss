@@ -1,4 +1,52 @@
 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.header__h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header__nav--link {
+    margin: 1rem;
+    font-size: 20px;
+    height: 48px;
+    min-width: 80px;
+    padding: 5px;
+    padding-top: 11px;
+    text-align: center;
+    background: rgb(146, 149, 162);
+    border-radius: 8px;
+
+    &:hover {
+        background-color: lavender;
+    }
+    &:active {
+        background-color: lavender;
+    }
+}
+
+.header__nav--text {
+color: black
+}
+
 
 // .header {
 //   display: flex;

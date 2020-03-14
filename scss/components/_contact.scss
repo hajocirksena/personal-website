@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .contact__h2{
+     margin: auto;
+     text-decoration: underline;
+     padding-top: 3rem;
+     padding-bottom: 20px;
+ }
+ 
+ .contact__link{
+     height: 48px;
+     margin: auto;
+     padding: 15px;
+     margin-bottom: 5px;
+     border-radius: 7px;
+     background: rgba(29, 116, 154, 0.413);
+     &:active {
+        background: rgba(252, 188, 132, 0.447);
+     }
+ }

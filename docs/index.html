@@ -9,57 +9,79 @@
 
 <body>
 <header class="header">
-    <div class="header__title">
-    <h1 class="header__h1">Hajo Cirksena</h1>   
+            <!-- <img class="header__logo" src="images/logo.png" alt="logo"> -->
+            <h1 class="header__h1">Hajo Cirksena</h1>
+    <div class="header__nav">    
+            <nav class="header__nav--link"><a class="header__nav--text" href="#con">Contact</a></nav>
+            <nav class="header__nav--link"><a class="header__nav--text" href="#work">Work</a></nav>
+            <nav class="header__nav--link"><a class="header__nav--text" href="#bio">Bio</a></nav>
     </div>
-    <div class="header__class">    
-            <nav class="header__nav"><a href="#kontakt">Kontakt</a></nav>
-            <nav class="header__nav"><a href="#work">Work</a></nav>
-            <nav class="header__nav"><a href="#bio">Bio</a></nav>
-    </div>
+
 </header>
 <main>
     <stage class="stage">
-        <h2 class="stage__h2">Herzlich willkommen auf meiner Homepage</h2>
+        <h2 class="stage__h2">Herzlich willkommen</h2>
         <img class="stage__img" src="images/Ich.jpg" alt="Hajo Cirksena" width="200px">
+        <p class="stage__shortinfo">Schön, dass du den Weg auf meine Homepage gefunden hast! Hier findest Du Infos über mich und meine Arbeit als Web-Entwickler.</p>
         
-        <h3 class="stage__skills">Softskills</h3>
-          <ul class="stage__skills--list">
-              <li>Dies</li>
-              <li>Das</li>
-              <li>Anna</li>
-              <li>nas</li>
-              <li>!!!</li>
+        <h3 class="stage__skills--h3">Softskills</h3>
+          <ul class="stage__skills">
+              <li class="stage__skills--list">Dies</li>
+              <li class="stage__skills--list">Das</li>
+              <li class="stage__skills--list">Anna</li>
+              <li class="stage__skills--list">nas</li>
+              <li class="stage__skills--list">!!!</li>
           </ul>
-        <h3 class="stage__skills">Hardskills</h3>
-          <ul class="stage__skills--list">
-              <li>Dies</li>
-              <li>Das</li>
-              <li>Anna</li>
-              <li>nas</li>
-              <li>!!!</li>
+        <h3 class="stage__skills--h3">Hardskills</h3>
+          <ul class="stage__skills">
+              <li class="stage__skills--list">Dies</li>
+              <li class="stage__skills--list">Das</li>
+              <li class="stage__skills--list">Anna</li>
+              <li class="stage__skills--list">nas</li>
+              <li class="stage__skills--list">!!!</li>
           </ul>
     </stage>
 
-    <section class="contact" id="kontakt">
-            <h2 class="contact__h2">Kontak:</h2>
-            <div class="contact__link><a href="mailto:hajocirksena@gmail.com">Schreib mir...</a></div>
-            <div class="contact__link><a href="tel:017670392681">...oder ruf an.</a></div>
+    <section class="contact" id="con">
+            <h2 class="contact__h2">Contact:</h2>
+            <div class="contact__link"><a href="mailto:hajocirksena@gmail.com">Schreib mir...</a></div>
+            <div class="contact__link"><a href="tel:017670392681">...oder ruf an.</a></div>
     </section>
 
-    <section class="skills" id="work">
-        <h2 class="skills__h2">Work</h2>
-        <div class="skills__link"><a href="http://www.github.com">GitHub<img src="images/github.jpg" alt=""width="200px";></a></div>
-        <div class="skills__link"><a href="http://www.codepen.io">CodePen <img src="images/codepen.png" alt="" width="200px"> </a></div>
-        <div class="skills__link"><a href=""LinkedIn>LinkedIn <img src="images/linkedIn.png" alt="" width="200px"></a></div>
+    <section class="work" id="work">
+
+        <h2 class="work__h2">Work:</h2>
+        <!-- <p>Hier findest du einige meiner Arbeiten...</p> -->
+<div class="work__link"> 
+        <a href="http://www.github.com">
+            <img class="work__link--img" src="images/github.jpg" alt=""width="180px";> 
+        </a> 
+        <a href="http://www.github.com"> 
+                <button class="work__link--btn">GitHub</button> 
+        </a>
+
+        <a href="http://www.codepen.io">
+            <img class="work__link--img" src="images/codepen.png" alt="" width="180px">
+        </a>
+        <a href="http://www.codepen.io">   
+                <button class="work__link--btn">CodePen</button> 
+        </a>
+
+          <a href="http://www.LinkedIn.com">
+            <img class="work__link--img" src="images/linkedIn.png" alt="" width="180px">
+        </a> 
+        <a href="http://www.linkedin.com"> 
+                <button class="work__link--btn">LinkedIn</button>
+        </a>
+</div>
     </section>
 
     <section class="bio" id="bio">
-            <h2 class="bio__bio--h2">Bio</h2>
-            <bio class="bio__bio--content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
+            <h2 class="bio__h2">Biographie:</h2>
+            <bio class="bio__bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
             <br>
-            <h2 class="bio__vita--h2">Vita</h2>
-            <vita class="bio__vita--content">
+            <h2 class="bio__h2">Lebenslauf:</h2>
+            <vita class="bio__vita">
                 <ul>
                     <li class="bio__vita--li">Lorem, ipsum.</li>
                     <li class="bio__vita--li">Lorem, ipsum.</li>

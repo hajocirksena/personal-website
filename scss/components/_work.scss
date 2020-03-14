@@ -1,0 +1,31 @@
+.work{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.work__h2 {
+    padding-top: 2rem;
+    text-decoration: underline;
+}
+
+ .work__link {
+     display: flex;
+     flex-direction: column;
+    margin: 10px;
+ }
+
+.work__link--img {
+    border-radius: 20px;
+}
+
+.work__link--btn{
+    height: 48px;
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    background: rgba(29, 116, 154, 0.413);
+    &:active {
+       background: rgba(252, 188, 132, 0.447);
+    }
+}
