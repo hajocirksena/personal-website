@@ -1,7 +1,37 @@
-@import "components/header-colors"
 
-.header{
-  padding: 20px;
-  background: var(--header-background);
-}
 
+// .header {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   background: rgba(0, 115, 255, 0.564);
+// }
+
+// .nav{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background: green;
+// }
+
+// .title {
+//   display: table;
+//   width: 100%;
+//   text-align: center;
+//   &:hover {
+//     background: hotpink;
+//   }
+// }
+
+
+// .header__nav {
+//   background: grey;
+//   height: 48px;
+//   width: auto;
+//   padding: 10px;
+//   margin: 10px;
+//   border-radius: 5px;
+//   &:hover {
+//     background: lightgray;
+//   }
+// }

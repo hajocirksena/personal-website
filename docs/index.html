@@ -8,26 +8,31 @@
 </head>
 
 <body>
-<header class="header m20">
-    <h1 class="header__h1">Hajo Cirksena</h1>
-        <nav class="header__nav"><a href="#kontakt"id="kontakt">Kontakt</a></nav>
-        <nav class="header__nav"><a href="#work"id="work">Work</a></nav>
-        <nav class="header__nav"><a href="#bio"id="bio">Bio</a></nav>
+<header class="header">
+    <div class="header__title">
+    <h1 class="header__h1">Hajo Cirksena</h1>   
+    </div>
+    <div class="header__class">    
+            <nav class="header__nav"><a href="#kontakt">Kontakt</a></nav>
+            <nav class="header__nav"><a href="#work">Work</a></nav>
+            <nav class="header__nav"><a href="#bio">Bio</a></nav>
+    </div>
 </header>
 <main>
-    <stage>
-        <h2 class:"stage">Herzlich willkommen auf meiner Homepage</h2>
-        <img src="images/Ich.jpg" alt="Hajo Cirksena" width="200px">
-        <section class:"stage__skills">Softskills</section>
-          <ul class:"stage__skills--list">
+    <stage class="stage">
+        <h2 class="stage__h2">Herzlich willkommen auf meiner Homepage</h2>
+        <img class="stage__img" src="images/Ich.jpg" alt="Hajo Cirksena" width="200px">
+        
+        <h3 class="stage__skills">Softskills</h3>
+          <ul class="stage__skills--list">
               <li>Dies</li>
               <li>Das</li>
               <li>Anna</li>
               <li>nas</li>
               <li>!!!</li>
           </ul>
-        <section class:"stage__skills">Hardskills</section>
-          <ul class:"stage__skills--list">
+        <h3 class="stage__skills">Hardskills</h3>
+          <ul class="stage__skills--list">
               <li>Dies</li>
               <li>Das</li>
               <li>Anna</li>
@@ -37,24 +42,33 @@
     </stage>
 
     <section class="contact" id="kontakt">
-            <h2>Kontak:</h2>
-            <div><a href="mailto:hajocirksena@gmail.com">Schreib mir...</a></div>
-            <div><a href="tel:017670392681">...oder ruf an.</a></div>
+            <h2 class="contact__h2">Kontak:</h2>
+            <div class="contact__link><a href="mailto:hajocirksena@gmail.com">Schreib mir...</a></div>
+            <div class="contact__link><a href="tel:017670392681">...oder ruf an.</a></div>
     </section>
 
     <section class="skills" id="work">
-        <h2>Work</h2>
-        <div class="work__link"><a href="http://www.github.com">GitHub<img src="images/github.jpg" alt=""width="200px";></a></div>
-        <div class="work__link"><a href="http://www.codepen.io">CodePen <img src="images/codepen.png" alt="" width="200px"> </a></div>
-        <div class="work__link"><a href=""LinkedIn>LinkedIn <img src="images/linkedIn.png" alt="" width="200px"></a></div>
+        <h2 class="skills__h2">Work</h2>
+        <div class="skills__link"><a href="http://www.github.com">GitHub<img src="images/github.jpg" alt=""width="200px";></a></div>
+        <div class="skills__link"><a href="http://www.codepen.io">CodePen <img src="images/codepen.png" alt="" width="200px"> </a></div>
+        <div class="skills__link"><a href=""LinkedIn>LinkedIn <img src="images/linkedIn.png" alt="" width="200px"></a></div>
     </section>
 
-    <section>
-        <h2 id="bio">Bio</h2>
-        <bio>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
-        <br>
-        <h2>Vita</h2>
-        <vita>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellat nam ipsa assumenda reiciendis quas ea. Placeat illo quas quo.</vita>
+    <section class="bio" id="bio">
+            <h2 class="bio__bio--h2">Bio</h2>
+            <bio class="bio__bio--content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
+            <br>
+            <h2 class="bio__vita--h2">Vita</h2>
+            <vita class="bio__vita--content">
+                <ul>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                    <li class="bio__vita--li">Lorem, ipsum.</li>
+                </ul>
+            </vita>
     </section>
 </main>
 <footer>&copy; Hajo Cirksena</footer>

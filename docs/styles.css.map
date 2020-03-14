@@ -6,8 +6,11 @@
 		"../scss/_variables.scss",
 		"../scss/_base.scss",
 		"../scss/_utils.scss",
-		"../scss/header.scss"
+		"../scss/components/_header.scss",
+		"../scss/components/_stage.scss",
+		"../scss/components/_skills.scss",
+		"../scss/components/_contact.scss"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,KAAK,AAAA,CACD,SAAS,CAAA,mBAAC,CACV,WAAW,CAAA,gBAAC,CACf,ACHD,AAAA,CAAC,AAAA,CACG,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,UAAU,CACvB,KAAK,CAAE,cAAc,CACrB,UAAU,CAAE,gBAAgB,CAC5B,MAAM,CAAC,IAAI,CACd,ACTD,AAAA,KAAK,AAAC,CACF,MAAM,CAAE,IAAI,CACf,AAED,AAAA,MAAM,AAAC,CACH,KAAK,CAAE,IAAI,CACd,ACND,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,MAAM,CAErB,OAAO,CAAE,IAAI,CACb,gBAAgB,CAAE,gBAAgB,CACrC,AAKD,AAAA,WAAW,AAAC,CACR,WAAW,CAAE,UAAU,CAC1B"
+	"mappings": "AEAA,AAAA,CAAC,CAAA;EACG,UAAU,EAAE,UAAU,GACzB"
 }
