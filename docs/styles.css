@@ -23,8 +23,10 @@ footer {
 .contact__link {
   height: 48px;
   margin: auto;
-  padding: 15px;
+  padding: 13px;
   margin-bottom: 5px;
+  border-color: grey;
+  border-style: solid;
   border-radius: 7px;
   background: rgba(29, 116, 154, 0.413); }
   .contact__link:active {
@@ -32,13 +34,16 @@ footer {
 
 .header {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
 
 .header__logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 150px;
+  max-width: 120px;
+  border-color: grey;
+  border-style: solid;
   border-radius: 100px; }
 
 .header__h1 {
@@ -57,9 +62,11 @@ footer {
   height: 48px;
   min-width: 80px;
   padding: 5px;
-  padding-top: 11px;
+  padding-top: 10px;
   text-align: center;
   background: #9295a2;
+  border-color: grey;
+  border-style: solid;
   border-radius: 8px; }
   .header__nav--link:hover {
     background-color: lavender; }
@@ -131,6 +138,8 @@ footer {
   width: 180px;
   border-radius: 20px;
   margin-bottom: 2rem;
+  border-color: grey;
+  border-style: solid;
   background: rgba(29, 116, 154, 0.413); }
   .work__link--btn:active {
     background: rgba(252, 188, 132, 0.447); }

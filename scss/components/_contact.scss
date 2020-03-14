@@ -13,8 +13,10 @@
  .contact__link{
      height: 48px;
      margin: auto;
-     padding: 15px;
+     padding: 13px;
      margin-bottom: 5px;
+     border-color: grey;
+     border-style: solid;
      border-radius: 7px;
      background: rgba(29, 116, 154, 0.413);
      &:active {
