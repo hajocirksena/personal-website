@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: rgba(147, 174, 206, 0.653); }
+  background-color: #879fb4;
+  padding: 20px; }
 
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
@@ -42,14 +43,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   max-width: 120px;
+  border-style: dotted;
   border-color: grey;
-  border-style: solid;
-  border-radius: 100px; }
-
-.header__h1 {
-  display: flex;
-  justify-content: center;
-  text-decoration: underline; }
+  border-radius: 10px; }
 
 .header__nav {
   display: flex;
@@ -69,9 +65,9 @@ footer {
   border-style: solid;
   border-radius: 8px; }
   .header__nav--link:hover {
-    background-color: lavender; }
+    background-color: papayawhip; }
   .header__nav--link:active {
-    background-color: lavender; }
+    background-color: papayawhip; }
 
 .header__nav--text {
   color: black; }

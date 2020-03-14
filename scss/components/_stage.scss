@@ -21,8 +21,6 @@
     margin-bottom: 40px;
 }
 
-
-
 .stage__skills--h3 {
     text-decoration: underline;
     margin-bottom: 0px;
@@ -46,6 +44,20 @@
         background: rgba(252, 188, 132, 0.447);
     }
 }
+
+// @media(min-width: 450px) {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 1fr;
+//     .stage__img.stage__shortinfo {
+//         columns: 1fr;
+//     }
+//     .stage__skills {
+//         columns: 2fr;
+//     }
+// }
+
+
 // .stage{
 //     display: grid;
 //     grid-template-columns: 1fr auto 1fr;

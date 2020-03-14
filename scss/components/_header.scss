@@ -11,16 +11,17 @@
     flex-direction: column;
     justify-content: center;
     max-width: 120px;
+    border-style: dotted;
     border-color: grey;
-    border-style: solid;
-    border-radius: 100px;
+     
+    border-radius: 10px;
 }
 
-.header__h1 {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-}
+// .header__h1 {
+//     display: flex;
+//     justify-content: center;
+//     text-decoration: underline;
+// }
 
 .header__nav {
     display: flex;
@@ -42,10 +43,10 @@
     border-radius: 8px;
 
     &:hover {
-        background-color: lavender;
+        background-color: papayawhip;
     }
     &:active {
-        background-color: lavender;
+        background-color: papayawhip;
     }
 }
 
