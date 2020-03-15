@@ -51,6 +51,7 @@ footer {
   max-width: 120px;
   border-style: dotted;
   border-color: grey;
+  box-shadow: 3px 4px 9px powderblue;
   border-radius: 10px; }
 
 .header__nav {
@@ -80,7 +81,8 @@ footer {
 
 .h2 {
   margin-top: 2rem;
-  text-align: center; }
+  text-align: center;
+  text-decoration: underline; }
 
 .stage {
   display: flex;
@@ -90,7 +92,8 @@ footer {
 .stage__img {
   border-radius: 100%;
   border-style: double;
-  border-color: rgba(29, 116, 154, 0.413); }
+  border-color: rgba(29, 116, 154, 0.413);
+  box-shadow: 3px 4px 9px powderblue; }
 
 .stage__shortinfo {
   max-width: 210px;
@@ -116,6 +119,7 @@ footer {
   padding: 7px;
   margin: 5px;
   border-radius: 15px;
+  box-shadow: 3px 4px 9px powderblue;
   min-width: 100px; }
   .stage__skills--list:hover {
     background: rgba(252, 188, 132, 0.447); }
@@ -148,7 +152,11 @@ footer {
   margin: 20px; }
 
 .work__link--img {
-  border-radius: 20px; }
+  border-radius: 20px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 3px 4px 9px powderblue; }
 
 .work__link--btn {
   height: 48px;
@@ -156,7 +164,8 @@ footer {
   border-radius: 20px;
   border-color: grey;
   border-style: solid;
-  background: rgba(29, 116, 154, 0.413); }
+  background: rgba(29, 116, 154, 0.413);
+  box-shadow: 3px 4px 9px powderblue; }
   .work__link--btn:active {
     background: rgba(252, 188, 132, 0.447); }
 

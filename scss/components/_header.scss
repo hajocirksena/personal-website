@@ -13,7 +13,7 @@
     max-width: 120px;
     border-style: dotted;
     border-color: grey;
-     
+    box-shadow: 3px 4px 9px powderblue;
     border-radius: 10px;
 }
 
@@ -41,6 +41,7 @@
     border-color: grey;
     border-style: solid;
     border-radius: 8px;
+    // box-shadow: 3px 4px 9px powderblue;
 
     &:hover {
         background-color: rgba(252, 188, 132, 0.447);

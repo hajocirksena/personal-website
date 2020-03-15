@@ -26,6 +26,10 @@
 
 .work__link--img {
     border-radius: 20px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 3px 4px 9px powderblue;
 }
 
 .work__link--btn{
@@ -35,6 +39,7 @@
     border-color: grey;
     border-style: solid;
     background: rgba(29, 116, 154, 0.413);
+    box-shadow: 3px 4px 9px powderblue;
     &:active {
        background: rgba(252, 188, 132, 0.447);
     }
