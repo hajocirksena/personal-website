@@ -5,6 +5,7 @@
 }
 
 .bio__h2{
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -16,4 +17,12 @@
 
 .bio__vita {
     margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 600px) {
+    .bio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 }

@@ -19,69 +19,92 @@
 
 </header>
 <main>
+    <h2 class="h2">Herzlich willkommen</h2>
     <stage class="stage">
-        <h2 class="stage__h2">Herzlich willkommen</h2>
-        <img class="stage__img" src="images/ich quadrat.png" alt="Hajo Cirksena" width="200px">
-        <p class="stage__shortinfo">Schön, dass du den Weg auf meine Homepage gefunden hast! Hier findest Du Infos über mich und meine Arbeit als Web-Entwickler.</p>
         
-        <h3 class="stage__skills--h3">Softskills</h3>
-          <ul class="stage__skills">
-              <li class="stage__skills--list">Dies</li>
-              <li class="stage__skills--list">Das</li>
-              <li class="stage__skills--list">Ana</li>
-              <li class="stage__skills--list">nas</li>
-              <li class="stage__skills--list">!!!</li>
-          </ul>
-        <h3 class="stage__skills--h3">Hardskills</h3>
-          <ul class="stage__skills">
-              <li class="stage__skills--list">Dies</li>
-              <li class="stage__skills--list">Das</li>
-              <li class="stage__skills--list">Ana</li>
-              <li class="stage__skills--list">nas</li>
-              <li class="stage__skills--list">!!!</li>
-          </ul>
+        <div class="stage__fr1">  
+            <img class="stage__img" src="images/ich quadrat.png" alt="Hajo Cirksena" width="200px">
+            <p class="stage__shortinfo">Schön, dass du den Weg auf meine Homepage gefunden hast! Hier findest Du Infos über mich und meine Arbeit als Web-Entwickler.</p>          
+        </div>
+
+        <div class="stage__fr2">  
+            <h3 class="stage__skills--h3">Softskills</h3>
+              <ul class="stage__skills">
+                  <li class="stage__skills--list">Dies</li>
+                  <li class="stage__skills--list">Das</li>
+                  <li class="stage__skills--list">Ana</li>
+                  <li class="stage__skills--list">nas</li>
+                  <li class="stage__skills--list">!!!</li>
+              </ul>
+        </div>
+
+        <div class="stage__fr3">
+            <h3 class="stage__skills--h3">Hardskills</h3>
+              <ul class="stage__skills">
+                  <li class="stage__skills--list">Dies</li>
+                  <li class="stage__skills--list">Das</li>
+                  <li class="stage__skills--list">Ana</li>
+                  <li class="stage__skills--list">nas</li>
+                  <li class="stage__skills--list">!!!</li>
+              </ul>
+        </div>
     </stage>
 
     <section class="contact" id="con">
             <h2 class="contact__h2">Contact:</h2>
-            <div class="contact__link"><a href="mailto:hajocirksena@gmail.com" target="_blank" rel="noopener noreferrer">Schreib mir...</a></div>
-            <div class="contact__link"><a href="tel:017670392681" target="_blank" rel="noopener noreferrer">...oder ruf an.</a></div>
-    </section>
+
+            <div class="contact__grid">
+                <div class="contact__link"><a href="mailto:hajocirksena@gmail.com" target="_blank" rel="noopener noreferrer">Schreib mir...</a></div>
+                <div class="contact__link"><a href="tel:017670392681" target="_blank" rel="noopener noreferrer">...oder ruf an.</a></div>
+            </div>
+        </section>
 
     <section class="work" id="work">
 
         <h2 class="work__h2">Work:</h2>
         <!-- <p>Hier findest du einige meiner Arbeiten...</p> -->
-<div class="work__link"> 
-        <a href="http://www.github.com" target="_blank" rel="noopener noreferrer">
-            <img class="work__link--img" src="images/github.jpg" alt=""width="180px";> 
-        </a> 
-        <a href="http://www.github.com" target="_blank" rel="noopener noreferrer"> 
+    <div class="work__link"> 
+
+         <div class="work__github work__card"> 
+            <a href="http://www.github.com" target="_blank" rel="noopener noreferrer">
+                <img class="work__link--img" src="images/github.jpg" alt=""width="180px";> 
+            </a> 
+             <a href="http://www.github.com" target="_blank" rel="noopener noreferrer"> 
                 <button class="work__link--btn">GitHub</button> 
-        </a>
+             </a>
+         </div>
 
-        <a href="http://www.codepen.io" target="_blank" rel="noopener noreferrer">
-            <img class="work__link--img" src="images/codepen.png" alt="" width="180px">
-        </a>
-        <a href="http://www.codepen.io" target="_blank" rel="noopener noreferrer">   
+         <div class="work__codepen work__card">
+            <a href="http://www.codepen.io" target="_blank" rel="noopener noreferrer">
+                <img class="work__link--img" src="images/codepen.png" alt="" width="180px">
+            </a>
+            <a href="http://www.codepen.io" target="_blank" rel="noopener noreferrer">   
                 <button class="work__link--btn">CodePen</button> 
-        </a>
+            </a>
+         </div>
 
-          <a href="http://www.LinkedIn.com" target="_blank" rel="noopener noreferrer">
-            <img class="work__link--img" src="images/linkedIn.png" alt="" width="180px">
-        </a> 
-        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"> 
+         <div class="work__linkedin work__card">
+            <a href="http://www.LinkedIn.com" target="_blank" rel="noopener noreferrer">
+                <img class="work__link--img" src="images/linkedIn.png" alt="" width="180px">
+            </a> 
+            <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"> 
                 <button class="work__link--btn">LinkedIn</button>
-        </a>
-</div>
+            </a>
+         </div>
+        </div>
     </section>
 
     <section class="bio" id="bio">
-            <h2 class="bio__h2">Biographie:</h2>
-            <bio class="bio__bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
-            <br>
+
+        <div class="bio__bio">
+                <h2 class="bio__h2">Biographie:</h2>
+                <bio class="bio__bio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, praesentium. Culpa eum vel exercitationem, possimus ut laudantium earum necessitatibus neque?</bio>
+                <br>
+        </div>
+
+
+        <vita class="bio__vita">
             <h2 class="bio__h2">Lebenslauf:</h2>
-            <vita class="bio__vita">
                 <ul>
                     <li class="bio__vita--li">Abitur 2006 IGS Aurich-West</li>
                     <li class="bio__vita--li">Bachelor of Arts 2011 <br>Musikerziehung IfM Osnabrück</li>
@@ -89,7 +112,7 @@
                     <li class="bio__vita--li">2012-2019 Freier Musiker und Lehrer</li>
                     <li class="bio__vita--li">2020 Weiterbildung zum Web-Entwickler<br> neue fische - school & pool for digital talent.</li>
                 </ul>
-            </vita>
+        </vita>
     </section>
 </main>
 <footer>&copy; Hajo Cirksena</footer>

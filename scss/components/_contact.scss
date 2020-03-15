@@ -12,6 +12,8 @@
  
  .contact__link{
      height: 48px;
+     width: 130px;
+
      margin: auto;
      padding: 13px;
      margin-bottom: 5px;
@@ -23,3 +25,11 @@
         background: rgba(252, 188, 132, 0.447);
      }
  }
+
+ @media screen and (min-width: 600px) {
+    .contact__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // width: 70%;
+    }
+}

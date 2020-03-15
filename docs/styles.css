@@ -23,6 +23,7 @@ footer {
 
 .contact__link {
   height: 48px;
+  width: 130px;
   margin: auto;
   padding: 13px;
   margin-bottom: 5px;
@@ -32,6 +33,11 @@ footer {
   background: rgba(29, 116, 154, 0.413); }
   .contact__link:active {
     background: rgba(252, 188, 132, 0.447); }
+
+@media screen and (min-width: 600px) {
+  .contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
 
 .header {
   display: flex;
@@ -72,13 +78,14 @@ footer {
 .header__nav--text {
   color: black; }
 
+.h2 {
+  margin-top: 2rem;
+  text-align: center; }
+
 .stage {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.stage__h2 {
-  margin-top: 2rem; }
 
 .stage__img {
   border-radius: 100%;
@@ -93,7 +100,8 @@ footer {
 
 .stage__skills--h3 {
   text-decoration: underline;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  text-align: center; }
 
 .stage__skills {
   display: flex;
@@ -112,19 +120,32 @@ footer {
   .stage__skills--list:hover {
     background: rgba(252, 188, 132, 0.447); }
 
+@media screen and (min-width: 600px) {
+  .stage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center; } }
+
 .work {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: center; }
 
 .work__h2 {
   padding-top: 2rem;
-  text-decoration: underline; }
+  text-decoration: underline;
+  text-align: center; }
 
 .work__link {
   display: flex;
   flex-direction: column;
-  margin: 10px; }
+  margin: 10px;
+  align-items: center; }
+
+.work__card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px; }
 
 .work__link--img {
   border-radius: 20px; }
@@ -133,12 +154,17 @@ footer {
   height: 48px;
   width: 180px;
   border-radius: 20px;
-  margin-bottom: 2rem;
   border-color: grey;
   border-style: solid;
   background: rgba(29, 116, 154, 0.413); }
   .work__link--btn:active {
     background: rgba(252, 188, 132, 0.447); }
+
+@media screen and (min-width: 600px) {
+  .work__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
 
 .bio {
   display: flex;
@@ -146,6 +172,7 @@ footer {
   align-items: center; }
 
 .bio__h2 {
+  text-align: center;
   text-decoration: underline; }
 
 .bio__bio {
@@ -155,5 +182,11 @@ footer {
 
 .bio__vita {
   margin-bottom: 3rem; }
+
+@media screen and (min-width: 600px) {
+  .bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; } }
 
 /*# sourceMappingURL=styles.css.map */
